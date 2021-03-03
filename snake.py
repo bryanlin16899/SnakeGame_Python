@@ -40,7 +40,6 @@ class Snake(Turtle):
         self.create_snake()
         self.head = self.body[0]
 
-
     def up(self):
         if self.head.heading() != DOWN:
             self.head.setheading(UP)
